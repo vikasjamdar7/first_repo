@@ -1,0 +1,8 @@
+2021-03-20 13:36:59,465 - J:/python_training/Core_Python/logging_messages/my_logger.py - CRITICAL - Traceback (most recent call last):
+  File "J:/python_training/Core_Python/logging_messages/my_logger.py", line 18, in <module>
+    print(l[100]) # raise InderError()
+IndexError: list index out of range
+
+2021-03-20 13:36:59,465 - J:/python_training/Core_Python/logging_messages/my_logger.py - ERROR - This error message
+2021-03-20 13:36:59,465 - J:/python_training/Core_Python/logging_messages/my_logger.py - WARNING - This warning message.
+2021-03-20 13:36:59,466 - J:/python_training/Core_Python/logging_messages/my_logger.py - INFO - This info message.
