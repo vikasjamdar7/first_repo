@@ -5,11 +5,11 @@ import traceback
 logging.basicConfig(filename="mylog.log", filemode='a+', format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__file__)
 print(__file__)
-print("logging.CRITICAL", logging.CRITICAL)
-print("logging.ERROR", logging.ERROR)
-print("logging.WARNING", logging.WARNING)
-print("logging.INFO", logging.INFO)
-print("logging.DEBUG", logging.DEBUG)
+# print("logging.CRITICAL", logging.CRITICAL)
+# print("logging.ERROR", logging.ERROR)
+# print("logging.WARNING", logging.WARNING)
+# print("logging.INFO", logging.INFO)
+# print("logging.DEBUG", logging.DEBUG)
 logger.setLevel(logging.ERROR)
 
 if __name__ == "__main__":

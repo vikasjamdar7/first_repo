@@ -6,11 +6,11 @@ def my_func():
     while raw_input("Enter N to exit:")!="N":
         l=input("Enter the list:")
         result=sum(l)
-        print "sum of list==",result
+        print("sum of list==",result)
 
-    print "exited main"
+    print("exited main")
 
 
 if __name__ == "__main__":
-    print ord("a")
+    print(ord("a"))
     my_func()
